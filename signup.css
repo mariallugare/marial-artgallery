@@ -53,3 +53,10 @@
     justify-content: space-evenly;
     margin-top: -90px;
 }
+.section5{
+    color: white;
+    background-color: rgb(5, 5, 36);
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
