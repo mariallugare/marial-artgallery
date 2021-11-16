@@ -10,6 +10,7 @@
 }
 #search{
     padding-top: 31px;
+    
 }
 .section1{
     background-image: url(./images/pexels-henry-&-co-1939485\ \(1\).jpg);
@@ -17,4 +18,9 @@
     height: 900px;
     background-size: cover;
 }   
-    
+.button1{
+    background-color: rgb(5, 5, 36);
+    color: white;
+    height: 40px;
+    width: 100px;
+}
