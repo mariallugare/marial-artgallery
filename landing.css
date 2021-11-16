@@ -70,3 +70,12 @@
 #heading{
     text-align: center;
 }
+.section4{
+    background-color: darkgray;
+
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -90px;
+}
