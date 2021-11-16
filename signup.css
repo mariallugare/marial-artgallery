@@ -15,7 +15,7 @@
 .section1{
     background-image: url(./images/pexels-henry-&-co-1939485\ \(1\).jpg);
     background-repeat: no-repeat;
-    height: 900px;
+    height: 100px;
     background-size: cover;
 }   
 .button1{
@@ -33,8 +33,14 @@
 }
 .registration{
     background-image: url(./images/pexels-scott-webb-2824173.jpg);
-    height: 500px;
+    height: 590px;
 }
 .sign{
     margin: 40px;
+}
+#button{
+    background-color: rgb(4, 4, 36);
+    color: white;
+    height: 50px;
+    width: 200px;
 }
