@@ -1,0 +1,20 @@
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    top: -200px;
+}
+.list{
+    margin: 30px;
+    
+}
+#search{
+    padding-top: 31px;
+}
+.section1{
+    background-image: url(./images/pexels-henry-&-co-1939485\ \(1\).jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover;
+}   
+    
