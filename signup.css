@@ -24,3 +24,17 @@
     height: 40px;
     width: 100px;
 }
+#marial-artgallery{
+    background-color: gray;
+    width: 500px;
+    float:right;
+    margin-right: 700px;
+    
+}
+.registration{
+    background-image: url(./images/pexels-scott-webb-2824173.jpg);
+    height: 500px;
+}
+.sign{
+    margin: 40px;
+}
