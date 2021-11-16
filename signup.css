@@ -44,3 +44,12 @@
     height: 50px;
     width: 200px;
 }
+.section4{
+    background-color: darkgray;
+
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -90px;
+}
