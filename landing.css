@@ -1,0 +1,77 @@
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    top: -200px;
+}
+.list{
+    margin: 30px;
+    
+}
+#search{
+    padding-top: 31px;
+    
+}
+.button1{
+    background-color: rgb(5, 5, 36);
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+.header{
+    background-image: url(Mona-Lisa-oil-wood-panel-Leonardo-da.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.paintings{
+    background-image: url(wall.jpg);
+    background-size: cover;
+}
+.paintings h1{
+    text-align: center;
+}
+#head{
+    text-align: center;
+}
+.Paint1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+.Paint2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Paint3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Paint4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    background-color: darkgray;
+    background-size: cover;
+}
+.footer p{
+    display:flex ;
+    justify-content: space-evenly;
+}
+.details{
+    display:flex ;
+    justify-content: space-evenly;
+    margin-top: -90px;
+}
+.section5{
+    color: white;
+    background-color: rgb(5, 5, 36);
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
