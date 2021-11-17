@@ -19,13 +19,14 @@
     width: 100px;
 }
 .header{
-    background-image: url(images/Mona-Lisa-oil-wood-panel-Leonardo-da.jpg);
+    background-image: url(images/bck.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
 }
 .paintings{
     background-image: url(images/wall.jpg);
+    background-size: cover;
     background-size: cover;
 }
 .paintings h1{
