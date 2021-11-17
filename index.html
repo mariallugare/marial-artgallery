@@ -10,60 +10,22 @@
 <body>
     <div class="navigation">
         <img src="images/logo.jpeg" alt="logo" height="100px" width="200px">
-        <nav>
             <ul>
-                <li class="list"><a href="#"><button>Sign Up</button></a></li>
-                <li class="list"><a href="#"><button>Home</button></a></li>
-                <li class="list"><a href="#"><button>Gallery</button></a></li>
-                <li class="list"><a href="#"><button>Paintings</button></a></li>
-                <li class="list"><a href="http://127.0.0.1:5502/index.html"><button>Artists</button></a></li>
-                <li class="list"><a href="#"><button>Contacts</button></a></li>
+                <li class="list"><a href="#"><button class="button1">Sign Up</button></a></li>
+                <li class="list"><a href="#"><button class="button1">Home</button></a></li>
+                <li class="list"><a href="#"><button class="button1">Gallery</button></a></li>
+                <li class="list"><a href="#"><button class="button1">Paintings</button></a></li>
+                <li class="list"><a href="http://127.0.0.1:5502/index.html"><button class="button1">Artists</button></a></li>
+                <li class="list"><a href="#"><button class="button1">Contacts</button></a></li>
                 <li class="list"><form action="" id="search">
                     <input type="text" placeholder="search.." name="search">
                     <button type="submit">Submit</button>
                 </form></li>
             </ul>
-        </nav>
     </div>
 
     <div class="Banner">
-        <button class="banner_button banner_button--right">
-            <img src="images/left.png" alt="" height="12">
-        </button>
-        <div class="banner_track-container">
-            <ul class="banner_track">
-                <li class="banner_slide">
-                    <img class="bannerimage" src="images/world.jpg" alt="" height="400" width="500">
-                </li>
-                <li class ="banner_slide">
-                    <img class="bannerimage" src="images/monastery-3130879__340.webp" alt="" height="400" width="500">
-                </li> 
-                <li class ="banner_slide">
-                    <img class="bannerimage" src="images/museum-4917179__340.webp" alt="" height="400" width="500">
-                </li> 
-                <li class ="banner_slide">
-                    <img class="bannerimage" src="images/bicycle-3045580__340.jpg" alt="" height="400" width="500">
-                </li> 
-                <li class ="banner_slide">
-                    <img class="bannerimage" src="images/woman-1283009__340.webp" alt="" height="400" width="500">
-                </li> 
-                <li class ="banner_slide">
-                    <img class="bannerimage" src="images/st-isaacs-cathedral-3710243__340.jpg" alt="" height="400" width="500">
-                </li>
-            </ul>
-        </div>
-        <button class="banner_button banner_button--left">
-            <img src="images/right.png" alt="" height="12">
-        </button>
-
-        <div class="banner_nav">
-            <button class="banner_indicator"></button>
-            <button class="banner_indicator"></button>
-            <button class="banner_indicator"></button>
-            <button class="banner_indicator"></button>
-            <button class="banner_indicator"></button>
-            <button class="banner_indicator"></button>
-        </div>
+        <img src="images/world.jpg" alt="" height="500" >
 
     </div>
 
@@ -75,7 +37,7 @@
 
     <div class="artistprofile">
         <div id="title">
-            <h3><u>Our Artists</u></h3>
+            <h1>Our Artists</h1>
         </div>
         <div class="profiles">
             <div id="artist1">
@@ -110,33 +72,34 @@
     </div>
 
     <div class="footer">
-        <div class="footerlogo">
-            <img src="images/logo.jpeg" alt="logo" height="100" width="100">
+        <div class="image">
+            <img src="images/logo.jpeg" width="100" height="100"
+            alt="">
         </div>
-       
-            <div id="contacts">
-                <h3>contacts</h3>
-                <p>Email:artgallery@gmail.com</p>
-                <p>Tell:+254700112245</p>
-                <p>Adress:Ngong rd, Nairobi</p>
-            </div>
-
-            <div id="legals">
-                <h3>Legals</h3>
-                <p>Terms of Use</p>
-                <p>Privacy and Policy</p>
-                <p>Copyright Policy</p>
-            </div>
-
-            <div id="newsletter">
-                <h3>News Letter</h3>
-                <form action="">
-                    <label for="emailaddress"><b>Email address</b></label>
-                    <input type="text" placeholder="enter email">
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
+       <div class="details">
+        <div class="contacts">
+            <p>
+                CONTACTS:<br>
+               Email:info@marialartgallery.com<br>
+               Tel:+254(0)728608551<br>
+               Ngong rd,Nairobi kenya<br>
+               </p>
         </div>
+        <div class="legal">
+            <a href= "images/MARIAL ART GALLERY TERMS OF USE.pdf" id="link"><br> <br> Terms of use
+            </a>
+        </div>
+        <div class="news">
+         <h4>
+            NEWS &SIGN UP:<br>
+            <form action="action_page.js">
+            <label for="Email"> Enter Email address</label>
+            <input type="email" id="emails" name="emails" multiple>
+            <input type="submit">
+            </form>
+         </h4>
+        </div>
+       </div>
     </div>
        
     <div class="copyright">
