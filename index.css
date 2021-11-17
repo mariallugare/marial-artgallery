@@ -1,3 +1,76 @@
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    top: -200px;
+}
+.list{
+    margin: 30px;
+}
+#search{
+    padding-top: 31px;
+}
+.button1{
+    background-color: rgb(5, 5, 36);
+    color: white;
+    height: 40px;
+    width: 100px;
+}
 .picone{
-    background-image: url(images/pic2.jpg);
+    text-align: center;
+    
+    
+
+}
+
+.uniform{
+    background-color: darkgray;
+}
+.exhibition{
+    color: rgb(22, 102, 151);
+    background-color: darkgray;
+    margin-top: -16px;
+}
+
+.footer{
+    background-color: darkgray;
+    
+    
+
+}
+.footer p{
+    display:flex ;
+    justify-content: space-evenly;
+   
+
+}
+.details{
+    display:flex ;
+    justify-content: space-evenly;
+    margin-top: -90px;
+}
+.picone{
+    background-image: url(./images/gallery.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.picone{
+    padding-top: 400px;
+    color:black;
+}
+.mari{
+    margin-top: -40px;
+}
+.section5{
+    color: white;
+    background-color: rgb(5, 5, 36);
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.legal a{
+    color: black;
 }
