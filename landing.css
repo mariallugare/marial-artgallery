@@ -27,6 +27,7 @@
 .paintings{
     background-image: url(wall.jpg);
     background-size: cover;
+    margin-top: -1em;
 }
 #head h1{
     font-size: 50px;
