@@ -30,6 +30,26 @@ button{
     display: flex;
     justify-content: center;
     text-align: center;
+    position: relative;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+.profiles img{
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px black;
+}
+.profiles{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 7em;
+    margin-left: 7em;
+}
+.artistprofile{
+    background-color: darkgray;
 }
 
 /*banner*/
@@ -41,7 +61,7 @@ button{
     margin: 0 auto;
 }
 .bannerimage{
-    width: 100%;
+    width: 80%;
     height: 50%;
 }
 .banner_track-container{
