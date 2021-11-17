@@ -23,6 +23,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    margin-bottom: -1em;
 }
 .paintings{
     background-image: url(wall.jpg);
