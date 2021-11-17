@@ -1,0 +1,28 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.list{
+    margin:30px
+}
+button{
+    cursor: pointer;
+}
+.footer{
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .info{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
