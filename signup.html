@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="signup.css">
-        <script src="signup.js"></script>
+       
     </head>
     <body>
         <div class="navbar">
@@ -30,19 +30,23 @@
             
         </div >
         <div class="registration">
-            <form id="marial-artgallery" action="/marial-artgallery" method="post">
+            
+            <form id="marial-artgallery" action="/landing.html" method="post">
                 <h2 class="sign">Registration</h2>
                 <div class="sign" >
                     <label id="fname" for="fname">First Name</label>
-                    <input type="text"  name="name" placeholder="Enter your first name"  >
+                    <input type="text"  name="name" placeholder="Enter your first name" required >
+                    <div class="error"  ></div>
                 </div>
                 <div class="sign">
                     <label id="lname" for="lname">Last Name</label>
-                    <input type="text" address="lname" placeholder="Enter your last name">
+                    <input type="text" address="lname" placeholder="Enter your last name"required>
+                    <div class="error" ></div>
                 </div>
                 <div class="sign">
                     <label id="email" for="email">Email</label>
-                    <input type="text" email="email" placeholder="Enter you email">
+                    <input type="email" email="email" placeholder="Enter you email"required>
+                    <div class="error" ></div>
                 </div>
                 <div class="sign">
                     <label for="type_of_art">Type of art</label>
@@ -52,22 +56,20 @@
                 <option value="Gouache">Gouache</option>
                 <option value="Oil">Oil</option>
                 <option value="acrylic">Acrylic</option>
-                <option value="Pastel">Pastel</option>
+                <option value="Watercolor">Watercolor</option>
             </select>
                 </div>
                 <div class="sign">
                     <label id=" location" for="location">Location</label>
-                    <input type="text" location="IQ" placeholder="Enter your location">
+                    <input type="text" location="IQ" placeholder="Enter your location"required>
+                    <div class="error" ></div>
                 </div>
                 <div class="sign">
                     <label id="password " for="password">Password</label>
-                    <input type="password" password="password" placeholder="Enter your password">
+                    <input type="password" password="password" placeholder="Enter your password"required>
                 </div>
-                <div class="sign">
-                    <label id=" password2" for="password2">Confirm Password</label>
-                    <input type="password" password="password" placeholder="confirm password">
-                </div>
-                <button type="submit" id="button" class="sign">Submit</button>
+                
+                <button type="submit" id="button" class="sign"> <a href="landing.html">Submit</a> </button>
             </form>
         
         </div>

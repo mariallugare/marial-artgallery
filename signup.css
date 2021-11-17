@@ -37,6 +37,7 @@
 }
 .sign{
     margin: 40px;
+
 }
 #button{
     background-color: rgb(4, 4, 36);
@@ -59,4 +60,8 @@
     height: 50px;
     padding: 5px;
     text-align: center;
+}
+.sign a {
+    color: white;
+    text-decoration: none;
 }
