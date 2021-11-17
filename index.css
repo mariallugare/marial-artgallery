@@ -3,7 +3,7 @@
     justify-content: space-between;
 
 }
-ul{
+.navigation ul{
     list-style-type: none;
     display: flex;
 }
@@ -25,4 +25,31 @@ button{
 .copyright{
     display: flex;
     justify-content: center;
+}
+.Descriptions{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*banner*/
+
+.banner{
+    position: relative;
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+}
+.bannerimage{
+    width: 100%;
+    height: 50%;
+}
+.banner_track-container{
+    background: darkgray;
+    height: 100%;
+}
+.banner_track{
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
