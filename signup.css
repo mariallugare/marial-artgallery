@@ -1,0 +1,67 @@
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    top: -200px;
+}
+.list{
+    margin: 30px;
+    
+}
+#search{
+    padding-top: 31px;
+    
+}
+.section1{
+    background-image: url(./images/pexels-henry-&-co-1939485\ \(1\).jpg);
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: cover;
+}   
+.button1{
+    background-color: rgb(5, 5, 36);
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+#marial-artgallery{
+    background-color: gray;
+    width: 500px;
+    float:right;
+    margin-right: 700px;
+    
+}
+.registration{
+    background-image: url(./images/pexels-scott-webb-2824173.jpg);
+    height: 700px;
+}
+.sign{
+    margin: 40px;
+
+}
+#button{
+    background-color: rgb(4, 4, 36);
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+.section4{
+    background-color: darkgray;
+
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -90px;
+}
+.section5{
+    color: white;
+    background-color: rgb(5, 5, 36);
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
+.sign a {
+    color: white;
+    text-decoration: none;
+}
