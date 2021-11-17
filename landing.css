@@ -19,7 +19,7 @@
     width: 100px;
 }
 .header{
-    background-image: url(images/bck.jpg);
+    background-image: url(images/tree.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -61,7 +61,7 @@
     justify-content: space-around;
 }
 .footer{
-    background-color: darkgray;
+    background-color: lightgray;
     background-size: cover;
 }
 .footer p{
