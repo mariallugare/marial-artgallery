@@ -50,6 +50,7 @@ button{
     justify-content: center;
     text-align: center;
     position: relative;
+    margin-top: 2em;
 }
 #title{
     display: flex;
@@ -78,7 +79,74 @@ button{
 
 .Banner{
     margin-top: -1em;
+    margin-bottom: 3em;
 }
 .Banner img{
     width: 100%;
+}
+.Banner{
+    position: relative;
+    height: 600px;
+
+}
+.bannerimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner_track-container{
+    background: darkgray;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.banner_track{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 200ms ease-in-out;
+}
+.banner_slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.banner_button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    height: 20px;
+    
+}
+.banner_button--left{
+    left: -15px;
+}
+.banner_button--right{
+    right: -15px;
+}
+.banner_indicator{
+    border: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background:rgb(0, 0, 0, .3);
+    margin: 0 12px;
+    cursor: pointer;
+}
+.banner_nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.banner_indicator.current-slide{
+    background-color: rgba(0, 0, 0, .75);
+}
+.is-hidden{
+    display: none;
 }
