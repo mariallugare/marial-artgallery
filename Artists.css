@@ -29,6 +29,7 @@ button{
 .footer p{
     display:flex ;
     justify-content: space-evenly;
+;
 }
 .details{
     display:flex ;
@@ -149,4 +150,8 @@ button{
 }
 .is-hidden{
     display: none;
+}
+.footer p{
+    display:flex ;
+    justify-content: space-evenly;
 }
