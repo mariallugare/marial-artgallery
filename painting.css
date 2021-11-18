@@ -18,12 +18,7 @@
     height: 40px;
     width: 100px;
 }
-.header{
-    background-image: url(images/bck.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-}
+
 .paintings{
     background-image: url(images/wall.jpg);
     background-size: cover;
@@ -34,6 +29,11 @@
 }
 #head{
     text-align: center;
+    background-image: url(images/roberto-motoi-3oU5luB8oA4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
 }
 .Paint1{
     display: flex;
@@ -56,23 +56,27 @@
     flex-direction: row;
     justify-content: space-around;
 }
-.footer{
+.section4{
     background-color: darkgray;
     background-size: cover;
 }
 .footer p{
-    display:flex ;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
+}
+.legal a{
+    color: black;
 }
 .details{
-    display:flex ;
+    display: flex;
     justify-content: space-evenly;
     margin-top: -90px;
 }
 .section5{
     color: white;
-    background-color: rgb(5, 5, 36);
+    background-color:black;
     height: 50px;
     padding: 5px;
     text-align: center;
 }
+
