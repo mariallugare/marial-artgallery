@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "liveServer.settings.port": 5502
+=======
+    "liveServer.settings.port": 5501
+>>>>>>> d8eeca72ce4b8365bc88de2f59cab42aae3ef2fc
 }
