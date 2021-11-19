@@ -3,6 +3,9 @@
 #### {A online art gallery}, {17/11/2021}
 #### By **{Marial Achieng}**
 
+![Project Image](images/profile.png)
+
+
 ## Table of content
 + [Description](#description)
 + [Setup/Installation Requirement](#installation)
