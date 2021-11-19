@@ -6,10 +6,10 @@
 Marial art gallery promotes contemporary art from Kenya. Our intention is to create a strong and sustainable art market for kenyan artists by supporting and promoting the most innovative and exciting artists currently practicing in the region. Through  solo exhibitions , the gallery has increased visibility for established and emerging artists. Working closely with collectors and curators, we are building a strong and sustainable market for East African artists. In response to the current global needs, we are adapting and enhancing our online platforms to continue promoting  thought-provoking contemporary art from kenya Nairobi.
 
 
-{## Setup/Installation Requirements
+# Setup/Installation Requirements
 Either a computer,phone,tablet or an Ipad
 An access to the Internet
-{ Technologies Used:
+# Technologies Used:
 HTML - which was used to build the structure of the pages.
 CSS - which was used to style the pages including the left aside navigation bar
 Javascripts-used to validate forms and make the website functional
